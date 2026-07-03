@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samriti—Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+
+<header class="titlebar">
+  <div class="titlebar-dots"><span></span><span></span><span></span></div>
+  <span class="titlebar-path">Samriti Choudhary | Portfolio</span>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+    <svg id="iconMoon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    <svg id="iconSun" viewBox="0 0 24 24" width="16" height="16" style="display:none"><path fill="currentColor" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-6.66l1.42-1.42M4.92 19.08l1.42-1.42M19.08 19.08l-1.42-1.42M4.92 4.92L6.34 6.34M12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+  </button>
+</header>
+
+<div class="workspace">
+
+  <nav class="sidebar" id="sidebar">
+    <p class="sidebar-heading">EXPLORER</p>
+    <p class="folder-name">▾ PORTFOLIO</p>
+    <ul class="file-list" id="fileList">
+  <li><a href="#home" class="file-link active" data-target="home"><span class="file-icon html">🏠</span>Home</a></li>
+
+  <li><a href="#about" class="file-link" data-target="about"><span class="file-icon js">👤</span>About</a></li>
+
+  <li><a href="#skills" class="file-link" data-target="skills"><span class="file-icon css">💻</span>Skills</a></li>
+
+  <li><a href="#education" class="file-link" data-target="education"><span class="file-icon md">🎓</span>Education</a></li>
+
+  <li><a href="#projects" class="file-link" data-target="projects"><span class="file-icon js">🚀</span>Projects</a></li>
+
+  <li><a href="#achievements" class="file-link" data-target="achievements"><span class="file-icon diff">🏆</span>Achievements</a></li>
+
+  <li><a href="#certificates" class="file-link" data-target="certificates"><span class="file-icon json">📜</span>Certificates</a></li>
+
+  <li><a href="#contact" class="file-link" data-target="contact"><span class="file-icon md">📞</span>Contact</a></li>
+</ul>
+  </nav>
+
+  
+  <div class="main">
+
+ 
+    <div class="tabbar" id="tabbar">
+      <div class="tab active" data-target="home">Home</div>
+      <div class="tab" data-target="about">About</div>
+      <div class="tab" data-target="skills">Skills</div>
+      <div class="tab" data-target="education">Education</div>
+      <div class="tab" data-target="projects">Projects</div>
+      <div class="tab" data-target="achievements">Achievements</div>
+      <div class="tab" data-target="certificates">Certificates</div>
+      <div class="tab" data-target="contact">Contact</div>
+    </div>
+
+    <main class="editor">
+
+      <section id="home" class="section hero">
+        <h1 class="hero-title">
+    Hi, I'm <span class="str">Samriti</span>
+</h1>
+
+<h2 class="hero-subtitle">
+    Computer Science Engineering Student
+</h2>
+
+<div class="hero-body">
+
+<p><span class="prop">Education :</span>
+<span class="str">B.Tech CSE | Chandigarh Group of Colleges, Jhanjeri</span></p>
+
+<p><span class="prop">Current Focus :</span>
+<span id="typedStatus"></span><span class="cursor">|</span></p>
+
+<p><span class="prop">Programming :</span>
+Java • C++ • Python • JavaScript</p>
+
+<p><span class="prop">Web Technologies :</span>
+HTML • CSS • Responsive Design</p>
+
+<p><span class="prop">Interests :</span>
+Machine Learning • DSA • Web Development</p>
+
+</div>
+        
+      </section>
+
+      
+      <section id="about" class="section">
+       
+        <h2 class="section-title"><span class="lineno">01</span>About Me</h2>
+        <div class="about-grid">
+          <div class="about-photo" aria-hidden="true">
+            <div class="photo-frame"><img src="Samriti.jfif" alt="Samriti"></div>
+          </div>
+          <div class="about-text">
+            <p>
+I am <strong>Samriti </strong>, a Computer Science Engineering student at
+<strong>Chandigarh Group of Colleges, Jhanjeri</strong>. I am passionate about
+building responsive websites, solving programming problems, and exploring
+Machine Learning and Data Structures & Algorithms.
+</p>
+
+<p>
+I enjoy learning new technologies and applying them through practical projects.
+My technical foundation includes Java, C++, Python, HTML, CSS, JavaScript,
+Oracle SQL, and Git & GitHub. I believe in continuous learning and improving my
+problem-solving skills through coding, projects, and hackathons.
+</p>
+
+<p>
+My goal is to become a skilled Software Engineer by creating meaningful
+applications and continuously enhancing my knowledge in software development
+and emerging technologies.
+</p>
+<div class="about-strengths">
+
+<h3>Core Strengths</h3>
+
+<ul>
+    <li>Quick Learner</li>
+    <li>Problem Solving</li>
+    <li>Team Collaboration</li>
+    <li>Time Management</li>
+    <li>Adaptability</li>
+    <li>Leadership in Event Coordination</li>
+</ul>
+
+</div>
+            <div class="about-facts">
+              <div class="fact"><span class="fact-num">7.69</span><span class="fact-label">CGPA</span></div>
+              <div class="fact"><span class="fact-num">100+</span><span class="fact-label">problems solved</span></div>
+              <div class="fact"><span class="fact-num">5</span><span class="fact-label">certifications earned</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="skills" class="section">
+        
+        <h2 class="section-title"><span class="lineno">02</span>Skills</h2>
+        <div class="skills-grid" id="skillsGrid">
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.java</span><span class="skill-pct">75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.cpp</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.python</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.html-css</span><span class="skill-pct">75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.sql</span><span class="skill-pct">60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="60"></div></div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-head"><span class="selector">.git-and-github</span><span class="skill-pct">65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="65"></div></div>
+          </div>
+        </div>
+     
+        <div class="soft-skills-row">
+          <span class="tag tag-soft">Problem-Solving</span>
+          <span class="tag tag-soft">Project Management</span>
+          <span class="tag tag-soft">Adaptability</span>
+          <span class="tag tag-soft">Technical Communication</span>
+        </div>
+      </section>
+
+      
+      <section id="education" class="section">
+        
+        <h2 class="section-title"><span class="lineno">03</span>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 — 2028</span>
+              <h3>B.Tech, Computer Science &amp; Engineering</h3>
+              <p>Chandigarh Group of Colleges, Jhanjeri &middot; CGPA: <strong>7.69</strong></p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021 — 2022</span>
+              <h3>Secondary Education (X)</h3>
+              <p>Mount View Public Senior Secondary School, Ichhi Kangra, Himachal Pradesh &middot; Percentage: <strong>84.5%</strong></p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+            <span class="timeline-date">2023 — 2024</span>
+              <h3>Senior Secondary Education (XII)</h3>
+              <p>Mount View Public Senior Secondary School, Ichhi Kangra, Himachal Pradesh &middot; Percentage: <strong>70.20%</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="projects" class="section">
+       
+        <h2 class="section-title"><span class="lineno">04</span>Projects</h2>
+        <div class="project-filters" id="projectFilters">
+          <button class="filter-btn active" data-filter="all">all</button>
+          <button class="filter-btn" data-filter="html">html</button>
+          <button class="filter-btn" data-filter="css">css</button>
+          <button class="filter-btn" data-filter="js">js</button>
+          <button class="filter-btn" data-filter="python">python</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card" data-tags="html css js">
+            <div class="project-top">
+              <div class="project-image">
+    <img src="Restaurant.jpg" alt="CCE Restaurant Website">
+</div>
+              <div class="project-tags"><span class="tag tag-html">html</span><span class="tag tag-css">css</span><span class="tag tag-js">js</span></div>
+            </div>
+            <h3>CCE Restaurant Website</h3>
+            <p>A responsive, interactive restaurant site built during my Summer Training Program at
+            Chandigarh College of Engineering — customers can browse the menu, select items, and place
+            orders through dynamic sections built for a smooth experience.</p>
+            <div class="project-links"><a href="https://github.com/Samriti2006/CCE-resturant-by-SAMRITI.git" target="_blank" rel="noopener noreferrer">View Project</a><a href="https://github.com/Samriti2006/CCE-resturant-by-SAMRITI.git" target="_blank" rel="noopener noreferrer">Source Code →</a></div>
+          </article>
+          <article class="project-card" data-tags="python">
+            <div class="project-top">
+              <div class="project-image">
+    <img src="customer_churn.jpg" alt="Customer Churn Prediction">
+</div>
+              <div class="project-tags"><span class="tag tag-python">python</span></div>
+            </div>
+            <h3>Customer Churn Prediction</h3>
+            <p>A data science project analyzing customer data to predict churn risk — cleaned and explored
+            the dataset with Pandas and NumPy, then built a classification model to flag customers likely
+            to leave.</p>
+            <div class="project-links"><a href="https://github.com/Samriti2006/customer-churn-prediction" target="_blank" rel="noopener">Source Code →</a></div>
+          </article>
+         
+        </div>
+      </section>
+
+    
+      <section id="achievements" class="section">
+        
+        <h2 class="section-title"><span class="lineno">05</span>Achievements &amp; Participation</h2>
+        <ul class="diff-list">
+          <li><span class="diff-plus">+</span> Solved 100+ coding problems across LeetCode, HackerRank &amp; CodeChef — strengthening DSA and problem-solving skills.</li>
+          <li><span class="diff-plus">+</span> Coordinator, Vaultheist 2025 Hackathon — CGC University Mohali.</li>
+          <li><span class="diff-plus">+</span> Coordinator, Escape the Vinci 2026 (National Level Hackathon) — CGC University Mohali.</li>
+          <li><span class="diff-plus">+</span> Engaged in several hackathons, gaining hands-on experience in teamwork and rapid prototyping.</li>
+          <li><span class="diff-plus">+</span> Assisted in organizing technical sessions, workshops &amp; peer-learning initiatives.</li>
+          <li><span class="diff-plus">+</span> Contributed to a community development initiative through skill-based learning activities.</li>
+          <li><span class="diff-plus">+</span> Active in coding contests and competitive events, sharpening speed and accuracy under time constraints.</li>
+        </ul>
+      </section>
+
+    
+      <section id="certificates" class="section">
+        <h2 class="section-title"><span class="lineno">06</span>Certificates</h2>
+        <div class="cert-grid">
+          <div class="cert-card" data-cert-img="Python_Let'sU.jfif" tabindex="0" role="button" aria-label="View Python Bootcamp certificate">
+            <span class="cert-icon">🏅</span>
+            <h4>Python Bootcamp</h4>
+            <p class="cert-issuer">LetsUpgrade · Mar 2025</p>
+          </div>
+            <div class="cert-card" data-cert-img="GenAI_Tools.jfif" tabindex="0" role="button" aria-label="View Gen AI Tools certificate">
+            <span class="cert-icon">🏅</span>
+            <h4>Gen AI Tools</h4>
+            <p class="cert-issuer">FutureSkills Prime · Nasscom IT-ITeS SSC · May 2026</p>
+          </div>
+          <div class="cert-card" data-cert-img="DBU(Hackathon).jfif" tabindex="0" role="button" aria-label="View DBU Hackathon certificate">
+            <span class="cert-icon">🏅</span>
+            <h4>Code Elite 2025 — 24-Hour Hackathon</h4>
+            <p class="cert-issuer">Desh Bhagat University</p>
+          </div>
+          <div class="cert-card" data-cert-img="Word_War.jfif" tabindex="0" role="button" aria-label="View Word War certificate">
+            <span class="cert-icon">🏅</span>
+            <h4>Word War Competition</h4>
+            <p class="cert-issuer">Chandigarh Group of Colleges</p>
+          </div>
+          <div class="cert-card" data-cert-img="EIT.jfif" tabindex="0" role="button" aria-label="View Power System certificate">
+            <span class="cert-icon">🏅</span>
+            <h4>Power System Protection &amp; Recent Advances</h4>
+            <p class="cert-issuer">EIT · Webinar</p>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="contact" class="section">
+        
+        <h2 class="section-title"><span class="lineno">07</span>Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>Have an opportunity, feedback, or just want to say hi? Send a message — the form below
+            is wired up with JavaScript for basic validation.</p>
+          <ul class="contact-links">
+              <li>📧 samritichoudhary682@gmail.com</li>
+              <li>📱 +91 8628975759</li>
+              <li>🔗 <a href="https://www.linkedin.com/in/samriti-choudhary-93869a31b/" target="_blank">LinkedIn Profile</a></li>
+              <li>🐙 <a href="https://github.com/Samriti2006" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name">
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com">
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Say something nice..."></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            <p class="form-success" id="formSuccess">✓ Message sent! (This is a demo — no email was actually sent.)</p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+Thank you for taking the time to explore my portfolio.
+</p>
+
+<p class="footer-sub">
+Designed & Developed by Samriti 
+</p>
+      </footer>
+
+    </main>
+  </div>
+</div>
+
+
+<button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle file explorer">☰</button>
+
+<div class="cert-modal" id="certModal">
+  <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+  <div class="cert-modal-content">
+    <button class="cert-modal-close" id="certModalClose" aria-label="Close">&times;</button>
+    <img id="certModalImg" src="" alt="Certificate preview">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
