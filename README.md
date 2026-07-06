@@ -16,7 +16,7 @@ A personal portfolio website built with HTML, CSS, and JavaScript
 HTML5 · CSS3 · JavaScript (Vanilla) · EmailJS
 
 ## About Me
-Computer Science Engineering student at Chandigarh Group of Colleges, Jhanjeri.
+Computer Science Engineering student at CGC University, Jhanjeri (Mohali).
 Passionate about building responsive websites, solving programming problems,
 and exploring Machine Learning & Data Structures.
 
